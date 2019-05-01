@@ -1,0 +1,9 @@
+- [ ] !!! Mobile first !!!
+- [ ] Wire up githib api to pull issues from beerjs/reno for display
+- [ ] Community Roster
+  - [ ] Members: figure out a way to allow people to submit themselves as community
+  - [ ] Organizers:
+  - [ ] Good Fellas or something
+- [ ] Sponsors: logos in the footer maybe, and actual page too
+- [ ] Presentations:
+- [ ] Live stream link?

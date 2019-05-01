@@ -25,9 +25,6 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
-    'react/no-unused-prop-types': [2, {
-      skipShapeProps: true
-    }]
   },
   plugins: [ "jsx-a11y", "prettier" ]
 }

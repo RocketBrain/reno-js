@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 
 const Footer = () => (
@@ -12,7 +11,5 @@ const StyledFooter = styled.footer`
   display: flex;
   flex-direction: row-reverse;
 `
-
-Footer.propTypes = {}
 
 export default Footer

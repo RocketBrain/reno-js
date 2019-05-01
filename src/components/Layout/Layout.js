@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from '@emotion/styled'
 import { StaticQuery, graphql } from 'gatsby'
@@ -15,7 +14,11 @@ import Content from 'components/Content'
  See: https://www.gatsbyjs.org/docs/static-query/
 */
 
-const Layout = ({ children }) => (
+type Props = {
+  children?: React.Node
+}
+
+const Layout = (props: Props) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -39,7 +42,7 @@ const Layout = ({ children }) => (
             ]}
           />
           <Header siteTitle={data.site.siteMetadata.title} />
-          <Content>{children}</Content>
+          <Content>{props.children}</Content>
           <Footer />
         </StyledLayoutRoot>
       </Fragment>
@@ -52,9 +55,5 @@ const StyledLayoutRoot = styled.div`
   flex-direction: column;
   min-height: 100vh;
 `
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout

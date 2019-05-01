@@ -1,14 +1,15 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-
 import styled from '@emotion/styled'
-const Content = ({ children }) => (
+
+type Props = {
+  children?: React.Node
+}
+
+const Content = (props: Props) => (
   <StyledContent>
-    {children}
+    {props.children}
   </StyledContent>
 )
-
-Content.propTypes = {}
 
 export default Content
 
