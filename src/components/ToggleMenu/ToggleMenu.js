@@ -33,6 +33,7 @@ const SyledToggleMenu = styled.a`
   height: 20px;
   position: relative;
   text-decoration: none;
+  user-select: none;
   width: 25px;
 
   > span {
