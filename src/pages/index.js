@@ -1,9 +1,9 @@
 import React, { Component, PureComponent } from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import ReactMapGL, { Marker, Popup } from 'react-map-gl'
 
 import Layout from 'components/Layout'
-import Image from 'components/Image'
+// import Image from 'components/Image'
 import SEO from 'components/Seo'
 
 const IndexPage = () => (
@@ -138,7 +138,7 @@ class MarkerPin extends PureComponent {
 
 class Popover extends PureComponent {
   render () {
-    const { info } = this.props
+    // const { info } = this.props
     return (
       <div>Rue Bourbon</div>
     )
