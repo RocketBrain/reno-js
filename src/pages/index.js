@@ -34,6 +34,7 @@ const IndexPage = () => (
           </li>
           <li>
             <h3>BeerJS: Tahoe</h3>
+            <p>Keep up to date with JS and Tahoe <a href="https://www.facebook.com/beerjstahoe/">here</a></p>
           </li>
         </ul>
       </div>
@@ -54,7 +55,8 @@ const IndexPage = () => (
             <a href="https://github.com/beerjs/reno" target="_blank" rel="noopener noreferrer">BeerJS: Reno</a>
           </li>
           <li>
-            <a href="https://github.com/beerjs/tahoe" target="_blank" rel="noopener noreferrer">BeerJS: Tahoe</a>
+            <a href="https://github.com/beerjs/tahoe" target="_blank" rel="noopener noreferrer">BeerJS: Tahoe</a><br />
+            <a href="https://www.facebook.com/beerjstahoe" target="_blank" rel="noopener noreferrer">BeerJS: Tahoe Facebook</a>
           </li>
           <li>
             <a href="https://www.meetup.com/dev-reno" target="_blank" rel="noopener noreferrer">/dev/reno</a>
