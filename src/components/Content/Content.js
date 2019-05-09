@@ -14,8 +14,8 @@ const Content = (props: Props) => (
 export default Content
 
 const StyledContent = styled.main`
+  align-self: center;
+  display: flex;
   flex: 1;
   max-width: 1080px;
-  /* margin-left: 50px; */
-  /* margin-right: 50px; */
 `
