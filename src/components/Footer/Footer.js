@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 const Footer = () => (
-  <StyledFooter>Footer</StyledFooter>
+  <StyledFooter>&copy; 2019</StyledFooter>
 )
 
 const StyledFooter = styled.footer`

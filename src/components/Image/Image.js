@@ -13,21 +13,27 @@ import Img from 'gatsby-image'
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-          childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
+type Props = {
+  name: string
+}
+
+const Image = (props: Props) => {
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          placeholderImage: file(relativePath: { eq: "RenoJS.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 500) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
-      }
-    `}
-    render={(data) => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
-)
+      `}
+      render={(data) => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    />
+  )
+}
 
 export default Image

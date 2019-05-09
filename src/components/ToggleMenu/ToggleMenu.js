@@ -37,7 +37,8 @@ const SyledToggleMenu = styled.a`
   width: 25px;
 
   > span {
-    background: #000;
+    user-select: none;
+    background: white;
     cursor: pointer;
     height: 2px;
     position: absolute;
@@ -49,7 +50,7 @@ const SyledToggleMenu = styled.a`
       top: ${({ active }) => active ? 8 : 0}px;;
     }
 
-    &:last-child {
+    &:last-of-type {
       top: ${({ active }) => active ? 8 : 16}px;
     }
   }

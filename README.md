@@ -40,7 +40,9 @@ Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site ge
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/youraccount/yourproject)
+<!-- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/youraccount/yourproject) -->
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ca80b9d-bbb7-46ed-b030-5af6eac0c354/deploy-status)](https://app.netlify.com/sites/laughing-davinci-997d5a/deploys)
 
 
 ## TODO

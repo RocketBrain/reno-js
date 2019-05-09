@@ -122,8 +122,11 @@ const ResetStyle = createGlobalStyle`
   }
 
   ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
     margin-bottom: 1rem;
-    padding-left: 2rem;
 
     ul, ol {
       margin-top: 0.5rem;

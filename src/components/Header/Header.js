@@ -19,12 +19,13 @@ const Header = (props: Props) => (
 )
 
 const StyledHeader = styled.header`
+  background: black;
   height: 70px;
   padding-left: 16px;
   padding-right: 16px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid  #e5e5e5;
+  /* border-bottom: 1px solid  #e5e5e5; */
   margin-bottom: 1rem;
 
   h1 {
@@ -32,7 +33,7 @@ const StyledHeader = styled.header`
     flex: 1;
 
     a {
-      color: black;
+      color: white;
       font-size: 2rem;
       font-weight: 100;
     }
