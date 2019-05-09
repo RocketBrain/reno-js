@@ -50,8 +50,8 @@ const normalize = `
 `
 
 const headerStyle = `
-  margin: 0;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   font-weight: 700;
 `
 
@@ -106,6 +106,7 @@ const ResetStyle = createGlobalStyle`
   }
 
   p {
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
