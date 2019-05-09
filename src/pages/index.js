@@ -3,13 +3,14 @@ import React, { Component, PureComponent } from 'react'
 import ReactMapGL, { Marker, Popup } from 'react-map-gl'
 
 import Layout from 'components/Layout'
-// import Image from 'components/Image'
+import Image from 'components/Image'
 import SEO from 'components/Seo'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div style={{ padding: 50 }}>
+      <Image />
       <p>The sole purpose of RenoJS is to find, grow, and strengthen the web community in our region and ultimately this city.</p>
 
       {/* <Image name="RenoJS.png" /> */}
